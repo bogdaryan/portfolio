@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+body {
+	color: white;
+	font-family: 'Amatic', sans-serif;
+}
+
+.section-title {
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+
+header {
+	position: relative;
+}
+
+.exp__list {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: grid;
+	grid-template-columns: repeat(2, 50px);
+	gap: 15px;
+	margin: 25px 0;
+	margin-left: 50px;
+	z-index: 999;
+
+	&-item img {
+		width: 50px;
+	}
+}
+
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 100px;
+
+
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 50px;
+	}
+
+	&__item {
+		display: inline-block;
+		border-radius: 35px;
+		box-shadow: -4px -4px 12px hsla(0, 0%, 100%, .05), 4px 4px 12px #000;
+		transition: transform .3s ease;
+
+		&:hover {
+			transition: transform .3s ease;
+			transform: scale(1.05);
+		}
+	}
+
+	&__item-img {
+		width: 500px;
+		border-radius: 35px;
+	}
+
+	&__item-title {
+		font-size: 25px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-left: 35px;
+	}
+
+
+
+}
+
+
+
+.section {
+
+	&__list {}
+
+	&__item {}
+
+	&__item-img {}
+
+	&__item-title {}
+}
+
+
+
+.section-title {}
+
+.exp {
+
+	&__list-item {}
+}

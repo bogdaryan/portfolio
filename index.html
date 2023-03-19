@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta charset='UTF-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<link rel='stylesheet' href='./styles/reset.css'>
+	<link rel='stylesheet' href='./styles/index.css'>
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<header>
+		<ul class='exp__list'>
+			<li class='exp__list-item'><img src='./images/css.svg' alt='css'></li>
+			<li class='exp__list-item'><img src='./images/html.svg' alt='html'></li>
+			<li class='exp__list-item'><img src='./images/scss.svg' alt='scss'></li>
+			<li class='exp__list-item'><img src='./images/js.svg' alt='js'></li>
+			<li class='exp__list-item'><img src='./images/react.svg' alt='js'></li>
+			<li class='exp__list-item'><img src='./images/npm.svg' alt='js'></li>
+			<li class='exp__list-item'><img src='./images/webpack.svg' alt='js'></li>
+			<li class='exp__list-item'><img src='./images/gulp.svg' alt='js'></li>
+		</ul>
+	</header>
+	<main id="main">
+		<section class='section'>
+			<h2 class='section-title'>Landing Pages</h2>
+			<ul class='section__list'>
+				<li class='section__item'>
+					<a href='https://github.com/bogdaryan/oculus_landing'>
+						<img class='section__item-img' src='./images/oculus.jpg' alt='oculus'>
+						<h2 class='section__item-title'>Oculus</h2>
+					</a>
+
+				</li>
+				<li class='section__item'>
+					<a href='https://github.com/bogdaryan/muffin_landing'>
+						<img class='section__item-img' src='./images/muffin.jpg' alt='muffin'>
+						<h2 class='section__item-title'>Muffin</h2>
+					</a>
+				</li>
+
+				<li class='section__item'>
+					<a href='https://github.com/bogdaryan/EFood_SPA'>
+						<img class='section__item-img' src='./images/efood.jpg' alt='EFood'>
+						<h2 class='section__item-title'>EFood</h2>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<section class='section'>
+			<h2 class='section-title'>SPA</h2>
+			<ul class='section__list'>
+
+				<li class='section__item'>
+					<a href='https://github.com/bogdaryan/borvo_SPA'>
+						<img class='section__item-img' src='./images/borvo.jpg' alt='borvo'>
+						<h2 class='section__item-title'>Borvo</h2>
+					</a>
+				</li>
+
+
+			</ul>
+		</section>
+	</main>
+	<script src="./styles/three.min.js"></script>
+	<script src="./styles/vanta.cells.min.js"></script>
+	<script>
+		VANTA.CELLS({
+			el: "#main",
+			mouseControls: true,
+			touchControls: true,
+			gyroControls: false,
+			minHeight: 200.00,
+			minWidth: 200.00,
+			scale: 1.00,
+			color1: '#0c0c11',
+			color2: '#49ffa9',
+		})
+	</script>
+</body>
+
+</html>
